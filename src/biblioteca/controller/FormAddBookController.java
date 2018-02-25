@@ -38,6 +38,7 @@ public class FormAddBookController implements Initializable {
 
     @FXML
     private void handleCancel(ActionEvent event) {
+        System.exit(0);
     }
     
     //Função para validar os dados
